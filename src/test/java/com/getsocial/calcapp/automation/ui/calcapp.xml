@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elements area="calcapp">
+	<element key="APP_TEXT_VIEW" findBy="xPath" xPath="//android.widget.TextView[@text='Calc']" />
+	<element key="ARG1_TEXT_BOX" findBy="xPath" xPath="//android.widget.EditText[@content-desc='arg1']" />
+	<element key="ARG2_TEXT_BOX" findBy="xPath" xPath="//android.widget.EditText[@content-desc='arg2']" />
+	<element key="SUBTRACT_BUTTON" findBy="xPath" xPath="//android.widget.Button[@content-desc='subtraction']" />
+	<element key="DIVISION_BUTTON" findBy="xPath" xPath="//android.widget.Button[@content-desc='division']" />
+	<element key="ADDITION_BUTTON" findBy="xPath" xPath="//android.widget.Button[@content-desc='addition']" />
+	<element key="MULTIPLICATION_BUTTON" findBy="xPath" xPath="//android.widget.Button[@content-desc='multiplication']" />
+	<element key="RESULT_TEXT_VIEW" findBy="xPath" xPath="//android.widget.TextView[@content-desc='result']" />
+	<element key="FAILURE_MSG" findBy="xPath" xPath="//android.widget.TextView[@text='Unfortunately, Calc has stopped.']" />
+	<element key="OK_BUTTON" findBy="xPath" xPath="//android.widget.Button[@text='OK']" />
+</elements>
